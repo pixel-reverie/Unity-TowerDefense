@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1572536802969634}
+  m_IsPrefabParent: 1
+--- !u!1 &1572536802969634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4815891027853414}
+  - component: {fileID: 114307973030705630}
+  m_Layer: 0
+  m_Name: GameCore
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4815891027853414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572536802969634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114307973030705630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1572536802969634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b224d7a76559ce43bf7057b56fd7ea6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMenuPanel: {fileID: 0}
+  playingPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  scoreboardPanel: {fileID: 0}
+  scoreboardManager: {fileID: 0}
+  waveDatabase: {fileID: 0}
+  activeTowerSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  towerButtonParent: {fileID: 0}
+  towerPreview: {fileID: 0}
+  towerPreviewMeshRenderer: {fileID: 0}
+  SpawnButton: {fileID: 0}
+  moneyText: {fileID: 0}
+  lifeText: {fileID: 0}
+  scoreText: {fileID: 0}
+  gameOverScoreText: {fileID: 0}
+  towerPrefabs:
+  - {fileID: 114559488117079246, guid: 1041a562e7c8dcd419f153bfb238ea54, type: 2}
+  - {fileID: 114559488117079246, guid: 30ec29fafd24f5b44aedbaf06f602128, type: 2}
+  - {fileID: 114559488117079246, guid: cb49a7c7a5e61e54ea51f3611fbb2b82, type: 2}
+  - {fileID: 114559488117079246, guid: 9efa503d19c7ba7479530576001351fb, type: 2}
+  - {fileID: 114559488117079246, guid: dd5bd5eaaf755944183a27c7132e4f46, type: 2}
+  enemyPrefab: {fileID: 114803409654958490, guid: 31b96d239772c6f46a6fc9687169994c,
+    type: 2}
+  towerButtonPrefab: {fileID: 114118788057722576, guid: d86ef83e24ef32848a0e9082f9a53130,
+    type: 2}
+  startingMoney: 5
+  startingLives: 3
+  towerPreviewDefaultColour: {r: 0, g: 1, b: 0.50344825, a: 0.328}
+  towerPreviewBlockedColour: {r: 1, g: 0, b: 0, a: 0.328}
